@@ -1,0 +1,6 @@
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.GrammaticsCreator\bin\Debug\SSTU.GrammaticsCreator.dll
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.GrammaticsCreator\bin\Debug\SSTU.GrammaticsCreator.pdb
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.GrammaticsCreator\obj\Debug\SSTU.GrammaticsCreator.csprojAssemblyReference.cache
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.GrammaticsCreator\obj\Debug\SSTU.GrammaticsCreator.csproj.CoreCompileInputs.cache
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.GrammaticsCreator\obj\Debug\SSTU.GrammaticsCreator.dll
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.GrammaticsCreator\obj\Debug\SSTU.GrammaticsCreator.pdb

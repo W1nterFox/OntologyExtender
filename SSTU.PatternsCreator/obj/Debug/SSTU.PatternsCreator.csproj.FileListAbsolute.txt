@@ -1,0 +1,17 @@
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\SSTU.PatternsCreator.dll
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\SSTU.PatternsCreator.pdb
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\dotNetRDF.dll
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\VDS.Common.dll
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\dotNetRDF.xml
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\VDS.Common.pdb
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\VDS.Common.xml
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\obj\Debug\SSTU.PatternsCreator.csproj.CoreCompileInputs.cache
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\obj\Debug\SSTU.PatternsCreator.csproj.CopyComplete
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\obj\Debug\SSTU.PatternsCreator.dll
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\obj\Debug\SSTU.PatternsCreator.pdb
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\obj\Debug\SSTU.PatternsCreator.csprojAssemblyReference.cache
