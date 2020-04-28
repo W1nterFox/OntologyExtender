@@ -1,0 +1,32 @@
+encoding "utf8";
+
+TTextMinerConfig {
+  Dictionary = "gzt/root.gzt";
+  
+  PrettyOutput = "output/PrettyOutput.html";
+  
+  PrintTree = "output/tree.txt";
+  
+  PrintRules = "output/rules.txt";
+
+  Input = {
+    File = "input/test_2.txt";
+  }
+
+  Articles = [
+    { Name = "окончание_вуза" },
+    { Name = "защита_диссертации" },
+	{ Name = "преподаватель" }
+  ]
+  
+  Facts = [
+    { Name = "GraduationFact" },
+	{ Name = "DissertationFact" },
+	{ Name = "PersonFact" }
+  ]
+  
+  Output = {
+    File = "output/facts.xml";
+    Format = xml;
+  }
+}

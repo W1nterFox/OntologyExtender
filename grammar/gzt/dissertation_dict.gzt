@@ -1,0 +1,39 @@
+encoding "utf8";
+
+import "base.proto";
+import "articles_base.proto";
+
+TAuxDicArticle "защита_диссертации"
+{
+    key = { "tomita:../cxx/dissertation.cxx" type=CUSTOM }
+}
+
+TAuxDicArticle "защитил"
+{
+    key = "защитил" | "защитила"
+}
+
+TAuxDicArticle "тип_диссертации"
+{
+    key = "кандидатская" | "докторская" | "магистерская"
+}
+
+TAuxDicArticle "диссертация"
+{
+    key = "диссертация"
+}
+
+TAuxDicArticle "тип_степени"
+{
+    key = "кандидат" | "доктор"
+}
+
+TAuxDicArticle "наука"
+{
+    key = "наука"
+}
+
+TAuxDicArticle "направление"
+{
+    key = "направление" | "специальность"
+}
