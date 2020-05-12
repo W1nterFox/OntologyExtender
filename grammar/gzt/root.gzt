@@ -5,6 +5,4 @@ import "articles_base.proto";  // Файлы base.proto и articles_base.proto �
                                // Их необходимо включать в начало любого gzt-словаря.
 import "../proto/facttypes.proto";
 
-import "graduation_dict.gzt";
-import "dissertation_dict.gzt";
-import "person_dict.gzt";
+import "thesis_dict.gzt";

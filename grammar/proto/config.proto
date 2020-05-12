@@ -2,27 +2,19 @@ encoding "utf8";
 
 TTextMinerConfig {
   Dictionary = "gzt/root.gzt";
+  PrettyOutput = "output/debug.html";
+  ForceRecompile = 1;
   
-  PrettyOutput = "output/PrettyOutput.html";
-  
-  PrintTree = "output/tree.txt";
-  
-  PrintRules = "output/rules.txt";
-
   Input = {
-    File = "input/test_2.txt";
+    Dir = "input";
   }
 
   Articles = [
-    { Name = "окончание_вуза" },
-    { Name = "защита_диссертации" },
-	{ Name = "преподаватель" }
+    { Name = "защита_диссертации" }
   ]
   
   Facts = [
-    { Name = "GraduationFact" },
-	{ Name = "DissertationFact" },
-	{ Name = "PersonFact" }
+	{ Name = "ThesisFact" }
   ]
   
   Output = {

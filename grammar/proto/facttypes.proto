@@ -1,24 +1,12 @@
 import "base.proto"; 
 import "facttypes_base.proto";
 
-message GraduationFact: NFactType.TFact
+message ThesisFact: NFactType.TFact
 {
-    optional string GraduateFaculty = 1;
-	optional string GraduateUniversity = 2;
-	optional string Year = 3;
-}
-
-message DissertationFact: NFactType.TFact
-{
-    optional string DissertationName = 1;
-	optional string DissertationSpeciality = 2;
-	optional string ScienceDegree = 3;
-	optional string Year = 4;
-}
-
-message PersonFact: NFactType.TFact
-{
-    optional NFactType.TFio FullName = 1;
-	optional string ScienceDegree = 2;
-	optional string Position = 3;
+    optional NFactType.TFio Scientist = 1;
+    optional string Thesis = 2;
+	optional string Speciality = 3;
+	optional string AcademicDegree = 4;
+	optional string Department = 5;
+	optional string BranchOfScience = 6;
 }

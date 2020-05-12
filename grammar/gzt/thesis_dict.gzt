@@ -1,0 +1,34 @@
+encoding "utf8";
+
+import "base.proto";
+import "articles_base.proto";
+
+TAuxDicArticle "фио"
+{
+    key = { "alg:fio" type=CUSTOM }
+}
+
+TAuxDicArticle "защита_диссертации"
+{
+    key = { "tomita:../cxx/thesis.cxx" type=CUSTOM }
+}
+
+TAuxDicArticle "тип_диссертации"
+{
+    key = "кандидатская" | "докторская" | "магистерская"
+}
+
+TAuxDicArticle "тип_степени"
+{
+    key = "кандидат" | "доктор"
+}
+
+TAuxDicArticle "направление"
+{
+    key = "направление" | "специальность"
+}
+
+TAuxDicArticle "тип_должности"
+{
+    key = "доцент" | "аспирант" | "ассистент" | "профессор"
+}
