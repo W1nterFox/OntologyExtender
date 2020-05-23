@@ -1,15 +1,19 @@
-﻿using SSTU.GrammaticsCreator;
+﻿using SSTU.FactsProcesser;
 using SSTU.PatternsCreator;
+using SSTU.PatternsCreator.Entities;
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace OntologyExtender
 {
 	public partial class Form1 : Form
 	{
-		public string ontologyFileName;
-		public string sourceTextFileName;
+		public string OntologyFileName { get; set; }
+		public string FactsFileName { get; set; }
+		public string AdditionalPatternsFileName { get; set; }
 
 		public Form1()
 		{
@@ -23,28 +27,101 @@ namespace OntologyExtender
 				return;
 			}
 
-			ontologyFileName = loadOntologyDialog.FileName;
-
+			OntologyFileName = loadOntologyDialog.FileName;
+			textBoxOntologyPath.Text = OntologyFileName;
+			addAdditionalPatterns.Enabled = true;
 		}
 
-		private void GenerateRowOlsplPatterns_Click(object sender, EventArgs e)
+		private void LoadFacts_Click(object sender, EventArgs e)
 		{
-			var patternCreator = new PatternsCreator();
-			var result = patternCreator.CreateOlspls(ontologyFileName);
-		}
-
-		private void LoadGrammatics_Click(object sender, EventArgs e)
-		{
-			if (sourceTextDialog.ShowDialog() == DialogResult.Cancel)
+			if (factsDialog.ShowDialog() == DialogResult.Cancel)
 			{
 				return;
 			}
 
-			var sourceText = File.ReadAllText(sourceTextDialog.FileName);
+			FactsFileName = factsDialog.FileName;
+			textBoxFactsPath.Text = FactsFileName;
+		}
 
-			var grammaticCreator = new GrammaticCreator();
-			var jsonData = grammaticCreator.GetJsonData(sourceText);
+		private void ExtendAndSave_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				var patternCreator = new PatternsCreator();
+				var olpslPatternsFromOntology = patternCreator.CreateOlsplsFromOntology(OntologyFileName);
+				var additionalOlsplPatterns = patternCreator.ReadOlsplsFromFile(AdditionalPatternsFileName);
+				var totalPatterns = olpslPatternsFromOntology.Union(additionalOlsplPatterns).ToList();
 
+				var factReader = new FactsProcesser();
+				var facts = factReader.GetFactsFromFile(FactsFileName);
+				var filledPatterns = factReader.GetTripletsFromFacts(totalPatterns, facts);
+
+				var ontologyFiller = new OntologyFiller();
+				var resultOntology = ontologyFiller.GetExtendedOntologyByPatterns(OntologyFileName, filledPatterns);
+				SaveOntology(resultOntology);
+			}
+			catch (FormatException ex)
+			{
+				var infoMessage = $"{ex.Message}{Environment.NewLine}{Environment.NewLine}Пожалуйста, приведите данные к корректному формату и попробуйте снова";
+				MessageBox.Show(infoMessage, ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.ToString(), ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
+
+		private void SaveOntology(string resultOntology)
+		{
+			if (saveOntologyDialog.ShowDialog() == DialogResult.Cancel)
+			{
+				return;
+			}
+
+			string fileName = saveOntologyDialog.FileName;
+			File.WriteAllText(fileName, resultOntology);
+
+			MessageBox.Show("Файл сохранен");
+		}
+
+		private void AboutToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			var infoForm = new Form();
+			infoForm.Size = new System.Drawing.Size(550, 300);
+			infoForm.Text = "About";
+
+			var labelTextStrings = new List<string>
+			{
+				"Ontology extender - средство автоматического наполнения онтологий.",
+				Environment.NewLine,
+				"Для корректной работы необходима исходная онтология и факты. В процессе работы с онтологией анализируются домены и диапазоны объектных свойств, а также аксиомы классов. Следовательно, чем их больше тем более полной будет результирующая онтология",
+				Environment.NewLine,
+				"Разработано в качестве практической части дипломного проекта под руководством Шульги Татьяны Эриковны",
+				"Разработчики: ",
+				"    -Дмитриев Алексей Олегович",
+				"    -Паневин Денис Игоревич",
+			};
+
+			var label = new RichTextBox();
+			label.Size = new System.Drawing.Size(infoForm.Size.Width - 40, infoForm.Size.Height - 55);
+			label.Enabled = false;
+			label.Left = 10;
+			label.Top = 10;
+			label.Text = string.Join(Environment.NewLine, labelTextStrings);
+
+			infoForm.Controls.Add(label);
+			infoForm.Show();
+		}
+
+		private void AddOlsplPatterns_Click(object sender, EventArgs e)
+		{
+			if (loadAdditionalPatternsDialog.ShowDialog() == DialogResult.Cancel)
+			{
+				return;
+			}
+
+			AdditionalPatternsFileName = loadAdditionalPatternsDialog.FileName;
+			textBoxPatternsPath.Text = AdditionalPatternsFileName;
 		}
 	}
 }

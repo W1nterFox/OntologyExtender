@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+	<fdo_objects>
+		<document url="\shulga_tatyana_erikovna.txt" di="-1" bi="-1" date="">
+			<facts>
+				<Fact FactID="0" LeadID="0" FieldsInfo="n0;" pos="0" len="23" sn="1" fw="0" lw="8">
+					<Scientist val="ШУЛЬГА ТАТЬЯНА ЭРИКОВНА"/>
+				</Fact>
+				<Fact FactID="1" LeadID="1" FieldsInfo="n0;" pos="142" len="71" sn="2" fw="7" lw="14">
+					<Department val="КАФЕДРА  ИНФОРМАЦИОННО-КОММУНИКАЦИОННЫЕ СИСТЕМЫ И ПРОГРАММНАЯ ИНЖЕНЕРИЯ"/>
+				</Fact>
+				<Fact FactID="1" LeadID="1" FieldsInfo="n0;" pos="142" len="71" sn="2" fw="7" lw="14">
+					<Department val="КАФЕДРА2"/>
+				</Fact>
+				<Fact FactID="2" LeadID="2" FieldsInfo="n0;n1;n2;" pos="749" len="214" sn="7" fw="0" lw="27">
+					<Thesis val="МЕТОДЫ И МОДЕЛИ ФУНКЦИОНАЛЬНОГО ВОССТАНОВЛЕНИЯ ПОВЕДЕНИЯ СИСТЕМ , МОДЕЛИРУЕМЫХ АВТОМАТАМИ СПЕЦИАЛЬНОГО КЛАССА"/>
+					<Speciality val="МАТЕМАТИЧЕСКАЯ КИБЕРНЕТИКА  ."/>
+					<AcademicDegree val="КАНДИДАТ ФИЗИКО-МАТЕМАТИЧЕСКИХ НАУК"/>
+					<BranchOfScience val="ФИЗИКО-МАТЕМАТИЧЕСКИЕ"/>
+				</Fact>
+				<Fact FactID="3" LeadID="3" FieldsInfo="n0;n1;n2;" pos="749" len="214" sn="7" fw="0" lw="27">
+					<Thesis val="Диссертация2"/>
+					<Speciality val="МАТЕМАТИЧЕСКАЯ КИБЕРНЕТИКА  ."/>
+					<AcademicDegree val="ДОКТОР ФИЗИКО-МАТЕМАТИЧЕСКИХ НАУК"/>
+					<BranchOfScience val="ФИЗИКО-МАТЕМАТИЧЕСКИЕ"/>
+				</Fact>
+			</facts>
+			
+		</document>
+		
+		<document url="\abrosimova-olga-vladimirovna.txt" di="-1" bi="-1" date="">
+			<facts>
+				<Fact FactID="0" LeadID="0" FieldsInfo="n0;" pos="0" len="29" sn="1" fw="0" lw="8">
+					<Scientist val="АБРОСИМОВА ОЛЬГА ВЛАДИМИРОВНА"/>
+				</Fact>
+				<Fact FactID="1" LeadID="1" FieldsInfo="n0;" pos="128" len="17" sn="2" fw="7" lw="10">
+					<Department val="КАФЕДРА  ЭКОЛОГИЯ"/>
+				</Fact>
+				<Fact FactID="2" LeadID="2" FieldsInfo="n0;n1;n2;" pos="815" len="196" sn="9" fw="0" lw="28">
+					<Thesis val="ВЛИЯНИЕ ЛЕКТИНА PAENIBACILLUS POLYMYXA НА ПРОЦЕСС ФАГОЦИТОЗА БАКТЕРИЙ"/>
+					<Speciality val="03.00.07 - МИКРОБИОЛОГИЯ И 32.00.16 - ИММУНОЛОГИЯ ."/>
+					<AcademicDegree val="КАНДИДАТ БИОЛОГИЧЕСКИХ НАУК"/>
+					<BranchOfScience val="БИОЛОГИЧЕСКИЕ"/>
+				</Fact>
+			</facts>
+		</document>
+</fdo_objects>

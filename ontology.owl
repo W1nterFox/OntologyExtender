@@ -29,11 +29,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#protectDissertation -->
+    <!-- http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#protectThesis -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#protectDissertation">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#protectThesis">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Dissertation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis"/>
         <rdfs:label>защитил диссертацию</rdfs:label>
     </owl:ObjectProperty>
     
@@ -63,11 +63,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#worksAtTheCthedra -->
+    <!-- http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#worksAtTheDepartment -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#worksAtTheCthedra">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#worksAtTheDepartment">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Cathedra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Department"/>
         <rdfs:label>работает на кафедре</rdfs:label>
     </owl:ObjectProperty>
     
@@ -100,17 +100,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Cathedra -->
+    <!-- http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Department -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Cathedra">
+    <owl:Class rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Department">
         <rdfs:label>Кафедра</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Dissertation -->
+    <!-- http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Dissertation">
+    <owl:Class rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#wasProtectedByScientist"/>

@@ -15,3 +15,8 @@ C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\obj\Debug\SST
 C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\obj\Debug\SSTU.PatternsCreator.dll
 C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\obj\Debug\SSTU.PatternsCreator.pdb
 C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\obj\Debug\SSTU.PatternsCreator.csprojAssemblyReference.cache
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\MoreLinq.dll
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\System.ValueTuple.dll
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\MoreLinq.pdb
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\MoreLinq.xml
+C:\Users\Alexey\source\repos\OntologyExtender\SSTU.PatternsCreator\bin\Debug\System.ValueTuple.xml

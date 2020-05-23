@@ -13,7 +13,7 @@ namespace SSTU.PatternsCreator
 	public class OwlParser
 	{
 		private readonly string prefixes = "PREFIX owl: <http://www.w3.org/2002/07/owl#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>";
-		private readonly TripleStore store;
+		public readonly TripleStore store;
 
 		public OwlParser(string owlFilePath)
 		{
@@ -207,11 +207,52 @@ namespace SSTU.PatternsCreator
 
 		#endregion
 
+		#region InsertTriplets
+		public void InsertTriplet(string triple)
+		{
+			var splittedTriple = triple.Split(' ');
+			var localGraph = store.Graphs.First();
+
+			var subject = localGraph.CreateUriNode(UriFactory.Create(splittedTriple[0]));
+			var predecate = localGraph.CreateUriNode(UriFactory.Create(splittedTriple[1]));
+			var rdfObject = localGraph.CreateUriNode(UriFactory.Create(string.Join(" ", splittedTriple.Skip(2))));
+
+			var t = new Triple(subject, predecate, rdfObject);
+			localGraph.Assert(t);
+
+			
+			//var query = "INSERT DATA { <" + splittedTriple[0] + "> " + splittedTriple[1] + " <" + string.Join(" ", splittedTriple.Skip(2)) + ">. } ";
+			//ExecuteUpdate(query);
+		}
+
+		public void InsertTripletLabel(string triple)
+		{
+			var splittedTriple = triple.Split(' ');
+			var localGraph = store.Graphs.First();
+
+			var subject = localGraph.CreateUriNode(UriFactory.Create(splittedTriple[0]));
+			var predecate = localGraph.CreateUriNode(UriFactory.Create(splittedTriple[1]));
+			var rdfObject = localGraph.CreateLiteralNode(string.Join(" ", splittedTriple.Skip(2)));
+
+			var t = new Triple(subject, predecate, rdfObject);
+			localGraph.Assert(t);
+
+
+			//var query = "INSERT DATA {  <" + splittedTriple[0] + "> " + splittedTriple[1] + " '" + string.Join(" ", splittedTriple.Skip(2)) + "'. } ";
+			//ExecuteUpdate(query);
+		}
+		#endregion
+
 		private SparqlResultSet ExecuteQuery(string query)
 		{
 			var result = store.ExecuteQuery(prefixes + query);
 
 			return (SparqlResultSet)result;
+		}
+
+		private void ExecuteUpdate(string query)
+		{
+			store.ExecuteUpdate(prefixes + query);
 		}
 	}
 }

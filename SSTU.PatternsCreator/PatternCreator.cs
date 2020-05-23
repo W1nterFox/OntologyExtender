@@ -1,6 +1,7 @@
 ﻿using SSTU.PatternsCreator.Entities;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,13 +9,18 @@ using VDS.RDF;
 
 namespace SSTU.PatternsCreator
 {
-    public class PatternsCreator
-    {
+	public class PatternsCreator
+	{
 		public readonly string Var1 = "Var1";
 		public readonly string Var2 = "Var2";
 
-		public List<OlsplPattern> CreateOlspls(string owlPath)
+		public List<OlsplPattern> CreateOlsplsFromOntology(string owlPath)
 		{
+			if (string.IsNullOrEmpty(owlPath))
+			{
+				return new List<OlsplPattern>();
+			}
+
 			var owlParser = new OwlParser(owlPath);
 
 			var properties = owlParser.GetProperties();
@@ -26,7 +32,123 @@ namespace SSTU.PatternsCreator
 				OwlClasses = classes,
 			};
 
+			SetGlobalOntologyUri(ontologyInfo);
+
 			return GetOlspls(ontologyInfo);
+		}
+
+		public List<OlsplPattern> ReadOlsplsFromFile(string filePath)
+		{
+			if (string.IsNullOrEmpty(filePath))
+			{
+				return new List<OlsplPattern>();
+			}
+
+			var lines = File.ReadAllLines(filePath).Select(x =>x.Trim()).ToList();
+			lines.RemoveAll(x => x == Environment.NewLine || x == string.Empty || x == "{" || x == "@olspl");
+
+			var rowPatternBlocks = new List<List<string>>();
+			var tempList = new List<string>();
+			foreach(var line in lines)
+			{
+				if (line == "}")
+				{
+					rowPatternBlocks.Add(tempList);
+					tempList = new List<string>();
+				}
+				else
+				{
+					tempList.Add(line);
+				}
+			}
+
+			var result = new List<OlsplPattern>();
+			foreach(var block in rowPatternBlocks)
+			{
+				var pattern = GetOlsplPatternFromBlock(block);
+				result.Add(pattern);
+			}
+
+			return result;
+		}
+		
+		private OlsplPattern GetOlsplPatternFromBlock(List<string> block)
+		{
+			if (block.Count != 4 && block.Count != 7)
+			{
+				var message = $"Неверный формат OLSPL-паттерна.{Environment.NewLine}" +
+					$"Заголовок OLSPL-паттерна должен содержать комментарий и правило. Тело паттерна должно содержать 2 или 5 триплетов";
+				throw new FormatException(message);
+			}
+			
+			var comment = block[0];
+			var rule = block[1];
+
+			var entity1Type = GetEntityType(block[2], block[3]);
+			var entity1Term = entity1Type.GetLocalName();
+
+			var pattern = new OlsplPattern
+			{
+				Comment = comment,
+				Rule = rule,
+				Entity1 = new RdfEntity
+				{
+					EntityIndex = 1,
+					Label = Var1,
+					//Type = entity1Type,
+					TypeTerm = entity1Term,
+				},
+			};
+
+			if (block.Count == 7)
+			{
+				var entity2Type = GetEntityType(block[4], block[5]);
+				var entity2Term = entity2Type.GetLocalName();
+
+				pattern.Entity2 = new RdfEntity
+				{
+					EntityIndex = 2,
+					Label = Var2,
+					//Type = entity2Type,
+					TypeTerm = entity2Term,
+				};
+
+				var tripletElems = block[6].Split(' ');
+				pattern.TotalTriplet = new Triplet
+				{
+					RdfSubject = $"{Constants.OwntologyUri}#{Constants.NewEntity}1",
+					RdfPredicate = tripletElems[1],
+					RdfObject = $"{Constants.OwntologyUri}#{Constants.NewEntity}2",
+				};
+			}
+
+			return pattern;
+		}
+
+		private string GetEntityType(string str1, string str2)
+		{
+			if (str1.Contains("rdf:type"))
+			{
+				return str1.Split(' ').Last();
+			}
+			if (str2.Contains("rdf:type"))
+			{
+				return str2.Split(' ').Last();
+			}
+
+			return null;
+		}
+
+		private void SetGlobalOntologyUri(OntologyInfo ontologyInfo)
+		{
+			var graphUri = ontologyInfo.OwlClasses.Select(x => x.ObjectClassURI.GraphUri).FirstOrDefault();
+
+			if (graphUri == null)
+			{
+				graphUri = ontologyInfo.OwlObjectProperties.Select(x => x.ObjectPropertyURI.GraphUri).FirstOrDefault();
+			}
+
+			Constants.OwntologyUri = graphUri.ToString();
 		}
 
 		private List<OlsplPattern> GetOlspls(OntologyInfo ontologyInfo)
@@ -90,33 +212,28 @@ namespace SSTU.PatternsCreator
 			{
 				foreach (var label in owlClass.Labels)
 				{
-					var rule1 = $"{Var1} - {label}";
-					var rule2 = $"{Var1} - это {label}";
-
 					var classUri = owlClass.ObjectClassURI;
-					var firstEntityTypeTriplet = $"{classUri.GraphUri}NewEntity <rdf:type> {classUri}";
-					var firstEntityLabelTriplet = $"{classUri.GraphUri}NewEntity <rdfs:label> {Var1}";
+					var classLocalName = classUri.GetLocalName();
+					var rule1 = $"{classLocalName} - {label}";
+
+					var entity = new RdfEntity
+					{
+						//Type = classUri.ToString(),
+						TypeTerm = classLocalName,
+						Label = Var1,
+						EntityIndex = 1,
+					};
+
 					var comment = "Generated via class labels";
 
-					var pattern1 = new OlsplPattern
+					var pattern = new OlsplPattern
 					{
 						Rule = rule1,
-						EntityType1 = firstEntityTypeTriplet,
-						EntityLabel1 = firstEntityLabelTriplet,
-						//PatternType = PatternType.SimplePattern,
-						Comment = comment,
-					};
-					var pattern2 = new OlsplPattern
-					{
-						Rule = rule2,
-						EntityType1 = firstEntityTypeTriplet,
-						EntityLabel1 = firstEntityLabelTriplet,
-						//PatternType = PatternType.SimplePattern,
+						Entity1 = entity,
 						Comment = comment,
 					};
 
-					patterns.Add(pattern1);
-					patterns.Add(pattern2);
+					patterns.Add(pattern);
 				}
 			}
 
@@ -125,39 +242,65 @@ namespace SSTU.PatternsCreator
 
 		private OlsplPattern GetPatternByLabelOfProperty(OwlObjectProperty property, INode label)
 		{
-			var rule = $"{Var1} {label} {Var2}";
 			var domain = property.Domain;
 			var range = property.Range;
+			var domainLocalName = domain.GetLocalName();
+			var rangeLocalName = range.GetLocalName();
 
-			var entityType1 = $"{domain.GraphUri}NewEntity1 <rdf:type> {domain}";
-			var entityLabel1 = $"{domain.GraphUri}NewEntity1 <rdfs:label> {Var1}";
-			var entityType2 = $"{range.GraphUri}NewEntity2 <rdf:type> {range}";
-			var entityLabel2 = $"{range.GraphUri}NewEntity2 <rdfs:label> {range}";
-			var totalTriplet = $"{domain.GraphUri}NewEntity1 {property.ObjectPropertyURI} {range.GraphUri}NewEntity2";
+			var rule = $"{domainLocalName} {label} {rangeLocalName}";
+			var entity1 = new RdfEntity
+			{
+				//Type = domain.ToString(),
+				TypeTerm = domainLocalName,
+				Label = Var1,
+				EntityIndex = 1,
+			};
+
+			var entity2 = new RdfEntity
+			{
+				//Type = range.ToString(),
+				TypeTerm = rangeLocalName,
+				Label = Var2,
+				EntityIndex = 2,
+			};
+
+			var totalTriplet = new Triplet(domain, property, range, 1, 2);
 
 			return new OlsplPattern
 			{
 				Rule = rule,
-				EntityType1 = entityType1,
-				EntityType2 = entityType2,
-				EntityLabel1 = entityLabel1,
-				EntityLabel2 = entityLabel2,
+				Entity1 = entity1,
+				Entity2 = entity2,
 				TotalTriplet = totalTriplet,
-				//PatternType = PatternType.FullPattern,
 				Comment = "Generated via domain and ranges",
 			};
 		}
 		private OlsplPattern GetPatternByLabelOfRestriction(Restriction restriction, INode label)
 		{
-			var rule = $"{Var1} {label} {Var2}";
 			var parentClass = restriction.ParentClassUri;
 			var onClass = restriction.OwlOnClass;
+			var parentClassLocalName = parentClass.GetLocalName();
+			var onClassLocalName = onClass.GetLocalName();
 
-			var entityType1 = $"{parentClass.GraphUri}NewEntity1 <rdf:type> {parentClass}";
-			var entityLabel1 = $"{parentClass.GraphUri}NewEntity1 <rdfs:label> {Var1}";
-			var entityType2 = $"{onClass.GraphUri}NewEntity2 <rdf:type> {onClass}";
-			var entityLabel2 = $"{onClass.GraphUri}NewEntity2 <rdfs:label> {Var2}";
-			var totalTriplet = $"{parentClass.GraphUri}NewEntity1 {restriction.OwlOnPropertyUri} {onClass.GraphUri}NewEntity2";
+			var rule = $"{parentClassLocalName} {label} {onClassLocalName}";
+
+			var entity1 = new RdfEntity
+			{
+				//Type = parentClass.ToString(),
+				TypeTerm = parentClassLocalName,
+				Label = Var1,
+				EntityIndex = 1,
+			};
+
+			var entity2 = new RdfEntity
+			{
+				//Type = onClass.ToString(),
+				TypeTerm = onClassLocalName,
+				Label = Var2,
+				EntityIndex = 2,
+			};
+
+			var totalTriplet = new Triplet(parentClass, restriction, onClass, 1, 2);
 
 			string comment = null;
 			if (restriction.Cardinality == null)
@@ -168,20 +311,30 @@ namespace SSTU.PatternsCreator
 			{
 				comment = $"Generated via restriction - {restriction.RestrictionType}: {restriction.Cardinality} for {onClass}";
 			}
-			
+
 
 			return new OlsplPattern
 			{
 				Rule = rule,
-				EntityType1 = entityType1,
-				EntityLabel1 = entityLabel1,
-				EntityType2 = entityType2,
-				EntityLabel2 = entityLabel2,
+				Entity1 = entity1,
+				Entity2 = entity2,
 				TotalTriplet = totalTriplet,
-				//PatternType = PatternType.FullPattern,
 				Comment = comment,
 			};
 		}
 
+	}
+
+	public static class ExtClass
+	{
+		public static string GetLocalName(this INode node)
+		{
+			return node.ToString().Split('#').Last();
+		}
+
+		public static string GetLocalName(this string node)
+		{
+			return node.Split('#').Last();
+		}
 	}
 }

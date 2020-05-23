@@ -21,5 +21,10 @@ C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\obj\Debug\Ontolog
 C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\obj\Debug\OntologyExtender.pdb
 C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\bin\Debug\SSTU.PatternsCreator.dll
 C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\bin\Debug\SSTU.PatternsCreator.pdb
-C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\bin\Debug\SSTU.GrammaticsCreator.dll
-C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\bin\Debug\SSTU.GrammaticsCreator.pdb
+C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\bin\Debug\SSTU.FactsProcesser.dll
+C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\bin\Debug\SSTU.FactsProcesser.pdb
+C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\bin\Debug\MoreLinq.dll
+C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\bin\Debug\System.ValueTuple.dll
+C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\bin\Debug\MoreLinq.pdb
+C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\bin\Debug\MoreLinq.xml
+C:\Users\Alexey\source\repos\OntologyExtender\OntologyExtender\bin\Debug\System.ValueTuple.xml

@@ -1,0 +1,63 @@
+@olspl
+//Generated via additional file
+Scientist защитил диссертацию Thesis
+{
+	entity1 <rdf:type> #Scientist
+	entity1 <rdf:label> var1
+	entity2 <rdf:type> #Thesis
+	entity2 <rdf:label> var2
+	entity1 protectThesis entity2 
+}
+
+@olspl
+//Generated via additional file
+Scientist работает в Department
+{
+	entity1 <rdf:type> #Scientist
+	entity1 <rdf:label> var1
+	entity2 <rdf:type> #Department
+	entity2 <rdf:label> var2
+	entity1 worksAtTheDepartment entity2 
+}
+@olspl
+//Generated via additional file
+Thesis защищена по специальности Speciality
+{
+	entity1 <rdf:type> #Thesis
+	entity1 <rdf:label> var1
+	entity2 <rdf:type> #Speciality
+	entity2 <rdf:label> var2
+	entity1 protectedBySpecialty entity2 
+}
+@olspl
+//Generated via additional file
+Thesis имеет ученую степень AcademicDegree
+{
+	entity1 <rdf:type> #Thesis
+	entity1 <rdf:label> var1
+	entity2 <rdf:type> #AcademicDegree
+	entity2 <rdf:label> var2
+	entity1 hasDegree entity2 
+}
+@olspl
+//Generated via additional file
+Thesis относится к отрасли наук BranchOfScience
+{
+	entity1 <rdf:type> #Thesis
+	entity1 <rdf:label> var1
+	entity2 <rdf:type> #BranchOfScience
+	entity2 <rdf:label> var2
+	entity1 refersToTheBranchOfScience entity2 
+}
+
+@olspl
+//Generated via additional file
+Thesis была защищена ученым Scientist
+{
+	entity1 <rdf:type> #Thesis
+	entity1 <rdf:label> var1
+	entity2 <rdf:type> #Scientist
+	entity2 <rdf:label> var2
+	entity1 wasProtectedByScientist entity2 
+}
+
