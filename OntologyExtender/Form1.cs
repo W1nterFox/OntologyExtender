@@ -30,6 +30,12 @@ namespace OntologyExtender
 			OntologyFileName = loadOntologyDialog.FileName;
 			textBoxOntologyPath.Text = OntologyFileName;
 			addAdditionalPatterns.Enabled = true;
+
+			if(!string.IsNullOrEmpty(textBoxOntologyPath.Text) && !string.IsNullOrEmpty(textBoxFactsPath.Text))
+			{
+				ExtendAndSave.Enabled = true;
+				checkBoxSavePatterns.Enabled = true;
+			}
 		}
 
 		private void LoadFacts_Click(object sender, EventArgs e)
@@ -41,6 +47,12 @@ namespace OntologyExtender
 
 			FactsFileName = factsDialog.FileName;
 			textBoxFactsPath.Text = FactsFileName;
+
+			if (!string.IsNullOrEmpty(textBoxOntologyPath.Text) && !string.IsNullOrEmpty(textBoxFactsPath.Text))
+			{
+				ExtendAndSave.Enabled = true;
+				checkBoxSavePatterns.Enabled = true;
+			}
 		}
 
 		private void ExtendAndSave_Click(object sender, EventArgs e)
@@ -51,7 +63,7 @@ namespace OntologyExtender
 				var olpslPatternsFromOntology = patternCreator.CreateOlsplsFromOntology(OntologyFileName);
 				var additionalOlsplPatterns = patternCreator.ReadOlsplsFromFile(AdditionalPatternsFileName);
 				var totalPatterns = olpslPatternsFromOntology.Union(additionalOlsplPatterns).ToList();
-
+				
 				var factReader = new FactsProcesser();
 				var facts = factReader.GetFactsFromFile(FactsFileName);
 				var filledPatterns = factReader.GetTripletsFromFacts(totalPatterns, facts);
@@ -59,6 +71,12 @@ namespace OntologyExtender
 				var ontologyFiller = new OntologyFiller();
 				var resultOntology = ontologyFiller.GetExtendedOntologyByPatterns(OntologyFileName, filledPatterns);
 				SaveOntology(resultOntology);
+
+				if (checkBoxSavePatterns.Checked)
+				{
+					var resultPatternsForSave = patternCreator.GetTextPatterns(totalPatterns);
+					SavePatterns(resultPatternsForSave);
+				}
 			}
 			catch (FormatException ex)
 			{
@@ -81,7 +99,20 @@ namespace OntologyExtender
 			string fileName = saveOntologyDialog.FileName;
 			File.WriteAllText(fileName, resultOntology);
 
-			MessageBox.Show("Файл сохранен");
+			MessageBox.Show("Онтология сохранена!");
+		}
+
+		private void SavePatterns(string resultPatterns)
+		{
+			if (savePatternsDialog.ShowDialog() == DialogResult.Cancel)
+			{
+				return;
+			}
+
+			string fileName = savePatternsDialog.FileName;
+			File.WriteAllText(fileName, resultPatterns);
+
+			MessageBox.Show("OLSPL-паттерны сохранены!");
 		}
 
 		private void AboutToolStripMenuItem_Click(object sender, EventArgs e)

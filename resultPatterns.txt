@@ -1,0 +1,213 @@
+@olspl
+Generated via domain and ranges
+Scientist защитил диссертацию Thesis
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 protectThesis http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+Generated via domain and ranges
+Scientist работает на кафедре Department
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Department
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 worksAtTheDepartment http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+Generated via restriction - AllValuesFrom: http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist
+Thesis была защищена ученым Scientist
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 wasProtectedByScientist http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+Generated via restriction - SomeValuesFrom: http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist
+Thesis была защищена ученым Scientist
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 wasProtectedByScientist http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+Generated via restriction - MaxQualifiedCardinality: 2^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger for http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Speciality
+Thesis защищена по специальности Speciality
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Speciality
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 protectedBySpecialty http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+Generated via restriction - QualifiedCardinality: 1^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger for http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist
+Thesis была защищена ученым Scientist
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 wasProtectedByScientist http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+Generated via restriction - QualifiedCardinality: 1^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger for http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree
+Thesis имеет ученую степень AcademicDegree
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 hasDegree http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+Generated via restriction - QualifiedCardinality: 1^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger for http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience
+Thesis относится к отрасли наук BranchOfScience
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 refersToTheBranchOfScience http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+Generated via restriction - MinQualifiedCardinality: 1^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger for http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Speciality
+Thesis защищена по специальности Speciality
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Speciality
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 protectedBySpecialty http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+Generated via class labels
+AcademicDegree - Ученая степень
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+}
+
+@olspl
+Generated via class labels
+BranchOfScience - Отрасль наук
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+}
+
+@olspl
+Generated via class labels
+Department - Кафедра
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Department
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+}
+
+@olspl
+Generated via class labels
+Thesis - Диссертация
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+}
+
+@olspl
+Generated via class labels
+Scientist - Ученый
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+}
+
+@olspl
+Generated via class labels
+Speciality - Специальность
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Speciality
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+}
+
+@olspl
+//Generated via additional file
+Scientist защитил диссертацию Thesis
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 protectThesis http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+//Generated via additional file
+Scientist работает в Department
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Department
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 worksAtTheDepartment http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+//Generated via additional file
+Thesis защищена по специальности Speciality
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Speciality
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 protectedBySpecialty http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+//Generated via additional file
+Thesis имеет ученую степень AcademicDegree
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 hasDegree http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+//Generated via additional file
+Thesis относится к отрасли наук BranchOfScience
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 refersToTheBranchOfScience http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+
+@olspl
+//Generated via additional file
+Thesis была защищена ученым Scientist
+{
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 <rdf:label> Var1
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:type> http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Scientist
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2 <rdf:label> Var2
+http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity1 wasProtectedByScientist http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2
+}
+

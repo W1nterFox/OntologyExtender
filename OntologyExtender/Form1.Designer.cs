@@ -41,6 +41,8 @@
 			this.addAdditionalPatterns = new System.Windows.Forms.Button();
 			this.loadAdditionalPatternsDialog = new System.Windows.Forms.OpenFileDialog();
 			this.textBoxPatternsPath = new System.Windows.Forms.RichTextBox();
+			this.savePatternsDialog = new System.Windows.Forms.SaveFileDialog();
+			this.checkBoxSavePatterns = new System.Windows.Forms.CheckBox();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -66,7 +68,8 @@
 			// 
 			// ExtendAndSave
 			// 
-			this.ExtendAndSave.Location = new System.Drawing.Point(256, 344);
+			this.ExtendAndSave.Enabled = false;
+			this.ExtendAndSave.Location = new System.Drawing.Point(25, 344);
 			this.ExtendAndSave.Name = "ExtendAndSave";
 			this.ExtendAndSave.Size = new System.Drawing.Size(202, 67);
 			this.ExtendAndSave.TabIndex = 12;
@@ -120,7 +123,7 @@
 			// aboutToolStripMenuItem
 			// 
 			this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-			this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+			this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 26);
 			this.aboutToolStripMenuItem.Text = "About";
 			this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
 			// 
@@ -148,11 +151,23 @@
 			this.textBoxPatternsPath.TabIndex = 17;
 			this.textBoxPatternsPath.Text = "";
 			// 
+			// checkBoxSavePatterns
+			// 
+			this.checkBoxSavePatterns.AutoSize = true;
+			this.checkBoxSavePatterns.Enabled = false;
+			this.checkBoxSavePatterns.Location = new System.Drawing.Point(254, 344);
+			this.checkBoxSavePatterns.Name = "checkBoxSavePatterns";
+			this.checkBoxSavePatterns.Size = new System.Drawing.Size(445, 21);
+			this.checkBoxSavePatterns.TabIndex = 18;
+			this.checkBoxSavePatterns.Text = "Дополнительно сохранить сгенерированные OLSPL-паттерны";
+			this.checkBoxSavePatterns.UseVisualStyleBackColor = true;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(744, 438);
+			this.Controls.Add(this.checkBoxSavePatterns);
 			this.Controls.Add(this.textBoxPatternsPath);
 			this.Controls.Add(this.addAdditionalPatterns);
 			this.Controls.Add(this.textBoxFactsPath);
@@ -186,6 +201,8 @@
 		private System.Windows.Forms.Button addAdditionalPatterns;
 		private System.Windows.Forms.OpenFileDialog loadAdditionalPatternsDialog;
 		private System.Windows.Forms.RichTextBox textBoxPatternsPath;
+		private System.Windows.Forms.SaveFileDialog savePatternsDialog;
+		private System.Windows.Forms.CheckBox checkBoxSavePatterns;
 	}
 }
 

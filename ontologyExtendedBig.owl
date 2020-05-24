@@ -257,23 +257,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ВЛИЯНИЕ ЛЕКТИНА PAENIBACILLUS POLYMYXA НА ПРОЦЕСС ФАГОЦИТОЗА БАКТЕРИЙ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>БИОЛОГИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ВЛИЯНИЕ ЛЕКТИНА PAENIBACILLUS POLYMYXA НА ПРОЦЕСС ФАГОЦИТОЗА БАКТЕРИЙ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ БИОЛОГИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity2">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ВЛИЯНИЕ ЛЕКТИНА PAENIBACILLUS POLYMYXA НА ПРОЦЕСС ФАГОЦИТОЗА БАКТЕРИЙ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>БИОЛОГИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3">
@@ -417,23 +417,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity12">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ОРИЕНТАЦИОННЫЕ ЭФФЕКТЫ ПРИ РАССЕЯНИИ СВЕТА В ДИСПЕРСНЫХ СИСТЕМАХ НЕМАТИЧЕСКИЙ ЖИДКИЙ КРИСТАЛЛ-ПОЛИМЕР</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ФИЗИКО-МАТЕМАТИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity12">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ОРИЕНТАЦИОННЫЕ ЭФФЕКТЫ ПРИ РАССЕЯНИИ СВЕТА В ДИСПЕРСНЫХ СИСТЕМАХ НЕМАТИЧЕСКИЙ ЖИДКИЙ КРИСТАЛЛ-ПОЛИМЕР</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity13"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity13">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ФИЗИКО-МАТЕМАТИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity12">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ОРИЕНТАЦИОННЫЕ ЭФФЕКТЫ ПРИ РАССЕЯНИИ СВЕТА В ДИСПЕРСНЫХ СИСТЕМАХ НЕМАТИЧЕСКИЙ ЖИДКИЙ КРИСТАЛЛ-ПОЛИМЕР</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ФИЗИКО-МАТЕМАТИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity13">
@@ -713,23 +713,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity44">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>СОЦИАЛЬНО-ПСИХОЛОГИЧЕСКИЕ ХАРАКТЕРИСТИКИ ИДЕНТИЧНОСТИ УЧАЩЕЙСЯ МОЛОДЕЖИ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity46"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity46">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ПСИХОЛОГИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity44">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>СОЦИАЛЬНО-ПСИХОЛОГИЧЕСКИЕ ХАРАКТЕРИСТИКИ ИДЕНТИЧНОСТИ УЧАЩЕЙСЯ МОЛОДЕЖИ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity45"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity45">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ПСИХОЛОГИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity44">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>СОЦИАЛЬНО-ПСИХОЛОГИЧЕСКИЕ ХАРАКТЕРИСТИКИ ИДЕНТИЧНОСТИ УЧАЩЕЙСЯ МОЛОДЕЖИ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity46"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity46">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ПСИХОЛОГИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity45">
@@ -1310,23 +1310,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity97">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ВЛИЯНИЕ ЭКОЛОГИЧЕСКИХ ФАКТОРОВ НА ДИНАМИКУ НАСЕЛЕНИЯ ПТИЦ ПРИГОРОДНЫХ ЛЕСОВ САРАТОВА</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>БИОЛОГИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity97">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ВЛИЯНИЕ ЭКОЛОГИЧЕСКИХ ФАКТОРОВ НА ДИНАМИКУ НАСЕЛЕНИЯ ПТИЦ ПРИГОРОДНЫХ ЛЕСОВ САРАТОВА</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ БИОЛОГИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity97">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ВЛИЯНИЕ ЭКОЛОГИЧЕСКИХ ФАКТОРОВ НА ДИНАМИКУ НАСЕЛЕНИЯ ПТИЦ ПРИГОРОДНЫХ ЛЕСОВ САРАТОВА</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>БИОЛОГИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3">
@@ -1875,23 +1875,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity139">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ФЕНОМЕН ПРОРОЧЕСТВА : ОНТОЛОГИЧЕСКИЕ , ГНОСЕОЛОГИЧЕСКИЕ КУЛЬТУРНО-ИСТОРИЧЕСКИЕ АСПЕКТЫ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity141"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity141">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ФИЛОСОФСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity139">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ФЕНОМЕН ПРОРОЧЕСТВА : ОНТОЛОГИЧЕСКИЕ , ГНОСЕОЛОГИЧЕСКИЕ КУЛЬТУРНО-ИСТОРИЧЕСКИЕ АСПЕКТЫ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity140"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity140">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ФИЛОСОФСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity139">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ФЕНОМЕН ПРОРОЧЕСТВА : ОНТОЛОГИЧЕСКИЕ , ГНОСЕОЛОГИЧЕСКИЕ КУЛЬТУРНО-ИСТОРИЧЕСКИЕ АСПЕКТЫ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity141"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity141">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ФИЛОСОФСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity140">
@@ -1986,23 +1986,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity147">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ОБЕСПЕЧЕНИЕ КОНКУРЕНТОСПОСОБНОСТИ СВЧ ЭЛЕКТРОТЕРМИЧЕСКИХ УСТАНОВОК И МЕРОПРИЯТИЯ ПО ЕЕ ПОВЫШЕНИЮ НА СТАДИЯХ ПРОЕКТИРОВАНИЯ И ЭКСПЛУАТАЦИИ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ТЕХНИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity147">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ОБЕСПЕЧЕНИЕ КОНКУРЕНТОСПОСОБНОСТИ СВЧ ЭЛЕКТРОТЕРМИЧЕСКИХ УСТАНОВОК И МЕРОПРИЯТИЯ ПО ЕЕ ПОВЫШЕНИЮ НА СТАДИЯХ ПРОЕКТИРОВАНИЯ И ЭКСПЛУАТАЦИИ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ТЕХНИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity147">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ОБЕСПЕЧЕНИЕ КОНКУРЕНТОСПОСОБНОСТИ СВЧ ЭЛЕКТРОТЕРМИЧЕСКИХ УСТАНОВОК И МЕРОПРИЯТИЯ ПО ЕЕ ПОВЫШЕНИЮ НА СТАДИЯХ ПРОЕКТИРОВАНИЯ И ЭКСПЛУАТАЦИИ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ТЕХНИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71">
@@ -2237,23 +2237,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity162">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ДИНАМИКА ВНИМАНИЯ ШКОЛЬНИКОВ В ЗАВИСИМОСТИ ОТ ТИПА УРОКА</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity46"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity46">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ПСИХОЛОГИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity162">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ДИНАМИКА ВНИМАНИЯ ШКОЛЬНИКОВ В ЗАВИСИМОСТИ ОТ ТИПА УРОКА</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity45"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity45">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ПСИХОЛОГИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity162">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ДИНАМИКА ВНИМАНИЯ ШКОЛЬНИКОВ В ЗАВИСИМОСТИ ОТ ТИПА УРОКА</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity46"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity46">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ПСИХОЛОГИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity45">
@@ -2421,23 +2421,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity172">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>СПИНОВЫЕ ВОЛНЫ В СЛОИСТЫХ СТРУКТУРАХ НА ОСНОВЕ СЛАБОАНИЗОТРОПНЫХ ПЛЕНОК ФЕРРИТОВ ГРАНАТОВ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ФИЗИКО-МАТЕМАТИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity172">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>СПИНОВЫЕ ВОЛНЫ В СЛОИСТЫХ СТРУКТУРАХ НА ОСНОВЕ СЛАБОАНИЗОТРОПНЫХ ПЛЕНОК ФЕРРИТОВ ГРАНАТОВ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity173"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity173">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>ДОКТОР ФИЗИКО-МАТЕМАТИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity172">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>СПИНОВЫЕ ВОЛНЫ В СЛОИСТЫХ СТРУКТУРАХ НА ОСНОВЕ СЛАБОАНИЗОТРОПНЫХ ПЛЕНОК ФЕРРИТОВ ГРАНАТОВ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ФИЗИКО-МАТЕМАТИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity173">
@@ -2558,23 +2558,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity179">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ВЛИЯНИЕ БАКТЕРИАЛЬНЫХ ГЛИКОПОЛИМЕРОВ НА ФУНКЦИОНАЛЬНО-МЕТАБОЛИЧЕСКИЙ СТАТУС ЛЕЙКОЦИТОВ И АКТИВНОСТЬ КЛЮЧЕВЫХ ФЕРМЕНТОВ МЕТАБОЛИЗМА МЫШЕЙ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>БИОЛОГИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity179">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ВЛИЯНИЕ БАКТЕРИАЛЬНЫХ ГЛИКОПОЛИМЕРОВ НА ФУНКЦИОНАЛЬНО-МЕТАБОЛИЧЕСКИЙ СТАТУС ЛЕЙКОЦИТОВ И АКТИВНОСТЬ КЛЮЧЕВЫХ ФЕРМЕНТОВ МЕТАБОЛИЗМА МЫШЕЙ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ БИОЛОГИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity179">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ВЛИЯНИЕ БАКТЕРИАЛЬНЫХ ГЛИКОПОЛИМЕРОВ НА ФУНКЦИОНАЛЬНО-МЕТАБОЛИЧЕСКИЙ СТАТУС ЛЕЙКОЦИТОВ И АКТИВНОСТЬ КЛЮЧЕВЫХ ФЕРМЕНТОВ МЕТАБОЛИЗМА МЫШЕЙ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>БИОЛОГИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3">
@@ -2994,23 +2994,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity205">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ФОРМИРОВАНИЕ И РЕАЛИЗАЦИЯ МНОГОУРОВНЕВОЙ ПРОМЫШЛЕННОЙ ПОЛИТИКИ РФ В УСЛОВИЯХ УГЛУБЛЕНИЯ ЭКОНОМИЧЕСКОЙ ИНТЕГРАЦИИ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity205">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ФОРМИРОВАНИЕ И РЕАЛИЗАЦИЯ МНОГОУРОВНЕВОЙ ПРОМЫШЛЕННОЙ ПОЛИТИКИ РФ В УСЛОВИЯХ УГЛУБЛЕНИЯ ЭКОНОМИЧЕСКОЙ ИНТЕГРАЦИИ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>ДОКТОР ЭКОНОМИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity205">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ФОРМИРОВАНИЕ И РЕАЛИЗАЦИЯ МНОГОУРОВНЕВОЙ ПРОМЫШЛЕННОЙ ПОЛИТИКИ РФ В УСЛОВИЯХ УГЛУБЛЕНИЯ ЭКОНОМИЧЕСКОЙ ИНТЕГРАЦИИ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
@@ -3090,23 +3090,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity205">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ФОРМИРОВАНИЕ И РЕАЛИЗАЦИЯ МНОГОУРОВНЕВОЙ ПРОМЫШЛЕННОЙ ПОЛИТИКИ РФ В УСЛОВИЯХ УГЛУБЛЕНИЯ ЭКОНОМИЧЕСКОЙ ИНТЕГРАЦИИ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity205">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ФОРМИРОВАНИЕ И РЕАЛИЗАЦИЯ МНОГОУРОВНЕВОЙ ПРОМЫШЛЕННОЙ ПОЛИТИКИ РФ В УСЛОВИЯХ УГЛУБЛЕНИЯ ЭКОНОМИЧЕСКОЙ ИНТЕГРАЦИИ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>ДОКТОР ЭКОНОМИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity205">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ФОРМИРОВАНИЕ И РЕАЛИЗАЦИЯ МНОГОУРОВНЕВОЙ ПРОМЫШЛЕННОЙ ПОЛИТИКИ РФ В УСЛОВИЯХ УГЛУБЛЕНИЯ ЭКОНОМИЧЕСКОЙ ИНТЕГРАЦИИ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
@@ -3409,23 +3409,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity224">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ОСОБЕННОСТИ ОРГАНИЗАЦИИ И РЕГУЛИРОВАНИЯ ОПЛАТЫ ТРУДА В РЫНОЧНОЙ ЭКОНОМИКЕ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity224">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ОСОБЕННОСТИ ОРГАНИЗАЦИИ И РЕГУЛИРОВАНИЯ ОПЛАТЫ ТРУДА В РЫНОЧНОЙ ЭКОНОМИКЕ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>ДОКТОР ЭКОНОМИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity224">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ОСОБЕННОСТИ ОРГАНИЗАЦИИ И РЕГУЛИРОВАНИЯ ОПЛАТЫ ТРУДА В РЫНОЧНОЙ ЭКОНОМИКЕ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
@@ -3505,23 +3505,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity224">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ОСОБЕННОСТИ ОРГАНИЗАЦИИ И РЕГУЛИРОВАНИЯ ОПЛАТЫ ТРУДА В РЫНОЧНОЙ ЭКОНОМИКЕ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity224">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ОСОБЕННОСТИ ОРГАНИЗАЦИИ И РЕГУЛИРОВАНИЯ ОПЛАТЫ ТРУДА В РЫНОЧНОЙ ЭКОНОМИКЕ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>ДОКТОР ЭКОНОМИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity224">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ОСОБЕННОСТИ ОРГАНИЗАЦИИ И РЕГУЛИРОВАНИЯ ОПЛАТЫ ТРУДА В РЫНОЧНОЙ ЭКОНОМИКЕ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
@@ -3717,23 +3717,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity238">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>СОЦИАЛЬНАЯ ДИНАМИКА КУЛЬТУРНОЙ ПОЛИТИКИ В СОВРЕМЕННОЙ РОССИИ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>СОЦИОЛОГИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity238">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>СОЦИАЛЬНАЯ ДИНАМИКА КУЛЬТУРНОЙ ПОЛИТИКИ В СОВРЕМЕННОЙ РОССИИ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity239"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity239">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>ДОКТОР СОЦИОЛОГИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity238">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>СОЦИАЛЬНАЯ ДИНАМИКА КУЛЬТУРНОЙ ПОЛИТИКИ В СОВРЕМЕННОЙ РОССИИ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>СОЦИОЛОГИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity239">
@@ -5706,23 +5706,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity358">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>НЕКОТОРЫЕ ЗАДАЧИ КОРОТКИХ ВОЛН</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ФИЗИКО-МАТЕМАТИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity358">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>НЕКОТОРЫЕ ЗАДАЧИ КОРОТКИХ ВОЛН</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity13"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity13">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ФИЗИКО-МАТЕМАТИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity358">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>НЕКОТОРЫЕ ЗАДАЧИ КОРОТКИХ ВОЛН</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ФИЗИКО-МАТЕМАТИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity13">
@@ -5874,23 +5874,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity366">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ЭФФЕКТИВНОСТЬ ЭНЕРГЕТИЧЕСКИХ КОМПЛЕКСОВ НА ОСНОВЕ ПОТОЧНЫХ ГАЗИФИКАТОРОВ ТВЕРДОГО ТОПЛИВА С ПАРОКИСЛОРОДНЫМ ДУТЬЕМ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ТЕХНИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity366">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ЭФФЕКТИВНОСТЬ ЭНЕРГЕТИЧЕСКИХ КОМПЛЕКСОВ НА ОСНОВЕ ПОТОЧНЫХ ГАЗИФИКАТОРОВ ТВЕРДОГО ТОПЛИВА С ПАРОКИСЛОРОДНЫМ ДУТЬЕМ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ТЕХНИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity366">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ЭФФЕКТИВНОСТЬ ЭНЕРГЕТИЧЕСКИХ КОМПЛЕКСОВ НА ОСНОВЕ ПОТОЧНЫХ ГАЗИФИКАТОРОВ ТВЕРДОГО ТОПЛИВА С ПАРОКИСЛОРОДНЫМ ДУТЬЕМ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ТЕХНИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71">
@@ -6059,23 +6059,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity374">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ИНВЕСТИРОВАНИЕ ИННОВАЦИОННОЙ ДЕЯТЕЛЬНОСТИ ПРЕДПРИЯТИЙ МАШИНОСТРОЕНИЯ НА ОСНОВЕ КЛАСТЕРНОГО ПОДХОДА : ТЕОРИЯ , МЕТОДОЛОГИЯ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity374">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ИНВЕСТИРОВАНИЕ ИННОВАЦИОННОЙ ДЕЯТЕЛЬНОСТИ ПРЕДПРИЯТИЙ МАШИНОСТРОЕНИЯ НА ОСНОВЕ КЛАСТЕРНОГО ПОДХОДА : ТЕОРИЯ , МЕТОДОЛОГИЯ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>ДОКТОР ЭКОНОМИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity374">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ИНВЕСТИРОВАНИЕ ИННОВАЦИОННОЙ ДЕЯТЕЛЬНОСТИ ПРЕДПРИЯТИЙ МАШИНОСТРОЕНИЯ НА ОСНОВЕ КЛАСТЕРНОГО ПОДХОДА : ТЕОРИЯ , МЕТОДОЛОГИЯ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
@@ -6216,23 +6216,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity379">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ПОИСК И ИСПОЛЬЗОВАНИЕ СИНТЕТИЧЕСКИХ СОЕДИНЕНИЙ ГЕТЕРОЦИКЛИЧЕСКОГО РЯДА ДЛЯ СОХРАНЕНИЯ СТАБИЛЬНОСТИ ПОПУЛЯЦИОННОГО СОСТАВА КОЛЛЕКЦИОННЫХ КУЛЬТУР МИКРООРГАНИЗМОВ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>БИОЛОГИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity379">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ПОИСК И ИСПОЛЬЗОВАНИЕ СИНТЕТИЧЕСКИХ СОЕДИНЕНИЙ ГЕТЕРОЦИКЛИЧЕСКОГО РЯДА ДЛЯ СОХРАНЕНИЯ СТАБИЛЬНОСТИ ПОПУЛЯЦИОННОГО СОСТАВА КОЛЛЕКЦИОННЫХ КУЛЬТУР МИКРООРГАНИЗМОВ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ БИОЛОГИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity379">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ПОИСК И ИСПОЛЬЗОВАНИЕ СИНТЕТИЧЕСКИХ СОЕДИНЕНИЙ ГЕТЕРОЦИКЛИЧЕСКОГО РЯДА ДЛЯ СОХРАНЕНИЯ СТАБИЛЬНОСТИ ПОПУЛЯЦИОННОГО СОСТАВА КОЛЛЕКЦИОННЫХ КУЛЬТУР МИКРООРГАНИЗМОВ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>БИОЛОГИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3">
@@ -6322,23 +6322,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity383">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ТЕХНОЛОГИЯ РЕГЕНЕРИРОВАННОГО АСФАЛЬТА С ДИСПЕРСНЫМ БИТУМОМ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ТЕХНИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity383">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ТЕХНОЛОГИЯ РЕГЕНЕРИРОВАННОГО АСФАЛЬТА С ДИСПЕРСНЫМ БИТУМОМ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ТЕХНИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity383">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ТЕХНОЛОГИЯ РЕГЕНЕРИРОВАННОГО АСФАЛЬТА С ДИСПЕРСНЫМ БИТУМОМ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ТЕХНИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71">
@@ -6656,23 +6656,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity398">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ФУНКЦИИ ГОСУДАРСТВА ПО ОБЕСПЕЧЕНИЮ ЭКОНОМИЧЕСКОЙ БЕЗОПАСНОСТИ ГОСУДАРСТВА</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity398">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ФУНКЦИИ ГОСУДАРСТВА ПО ОБЕСПЕЧЕНИЮ ЭКОНОМИЧЕСКОЙ БЕЗОПАСНОСТИ ГОСУДАРСТВА</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity253"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity253">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ЭКОНОМИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity398">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ФУНКЦИИ ГОСУДАРСТВА ПО ОБЕСПЕЧЕНИЮ ЭКОНОМИЧЕСКОЙ БЕЗОПАСНОСТИ ГОСУДАРСТВА</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity253">
@@ -6752,23 +6752,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity401">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ФУНКЦИОНИРОВАНИЕ РЫНКА РАБОЧИХ МЕСТ В СТРУКТУРЕ РЫНКА ТРУДА</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity401">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ФУНКЦИОНИРОВАНИЕ РЫНКА РАБОЧИХ МЕСТ В СТРУКТУРЕ РЫНКА ТРУДА</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity253"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity253">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ЭКОНОМИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity401">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ФУНКЦИОНИРОВАНИЕ РЫНКА РАБОЧИХ МЕСТ В СТРУКТУРЕ РЫНКА ТРУДА</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity253">
@@ -6994,23 +6994,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity410">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ПРОЦЕССЫ ДВУХФОТОННОГО ИНТЕРКОМБИНАЦИОННОГО ПОГЛОЩЕНИЯ И ВЫНУЖДЕННОГО КОМБИНАЦИОННОГО РАССЕЯНИЯ И ВОЗМОЖНОСТЬ ИХ ИСПОЛЬЗОВАНИЯ ДЛЯ ГЕНЕРАЦИИ ИНФРАКРАСНОГО ИЗЛУЧЕНИЯ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ФИЗИКО-МАТЕМАТИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity410">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ПРОЦЕССЫ ДВУХФОТОННОГО ИНТЕРКОМБИНАЦИОННОГО ПОГЛОЩЕНИЯ И ВЫНУЖДЕННОГО КОМБИНАЦИОННОГО РАССЕЯНИЯ И ВОЗМОЖНОСТЬ ИХ ИСПОЛЬЗОВАНИЯ ДЛЯ ГЕНЕРАЦИИ ИНФРАКРАСНОГО ИЗЛУЧЕНИЯ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity13"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity13">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ФИЗИКО-МАТЕМАТИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity410">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ПРОЦЕССЫ ДВУХФОТОННОГО ИНТЕРКОМБИНАЦИОННОГО ПОГЛОЩЕНИЯ И ВЫНУЖДЕННОГО КОМБИНАЦИОННОГО РАССЕЯНИЯ И ВОЗМОЖНОСТЬ ИХ ИСПОЛЬЗОВАНИЯ ДЛЯ ГЕНЕРАЦИИ ИНФРАКРАСНОГО ИЗЛУЧЕНИЯ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ФИЗИКО-МАТЕМАТИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity13">
@@ -7074,23 +7074,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity412">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>МАТЕМАТИЧЕСКОЕ МОДЕЛИРОВАНИЕ ПЕРЕХОДНЫХ ПРОЦЕССОВ ПРИ РАСПРОСТРАНЕНИИ ЛАЗЕРНЫХ ИМПУЛЬСОВ В УСЛОВИЯХ ОДНОФОТОННОГО И ДВОЙНОГО РЕЗОНАНСОВ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ФИЗИКО-МАТЕМАТИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity412">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>МАТЕМАТИЧЕСКОЕ МОДЕЛИРОВАНИЕ ПЕРЕХОДНЫХ ПРОЦЕССОВ ПРИ РАСПРОСТРАНЕНИИ ЛАЗЕРНЫХ ИМПУЛЬСОВ В УСЛОВИЯХ ОДНОФОТОННОГО И ДВОЙНОГО РЕЗОНАНСОВ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity173"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity173">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>ДОКТОР ФИЗИКО-МАТЕМАТИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity412">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>МАТЕМАТИЧЕСКОЕ МОДЕЛИРОВАНИЕ ПЕРЕХОДНЫХ ПРОЦЕССОВ ПРИ РАСПРОСТРАНЕНИИ ЛАЗЕРНЫХ ИМПУЛЬСОВ В УСЛОВИЯХ ОДНОФОТОННОГО И ДВОЙНОГО РЕЗОНАНСОВ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ФИЗИКО-МАТЕМАТИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity173">
@@ -7165,23 +7165,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity415">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>СТРАТИФИКАЦИОННЫЙ АНАЛИЗ ЗАНЯТОСТИ В КОНТЕКСТЕ ФОРМИРОВАНИЯ СРЕДНЕГО КЛАССА</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>СОЦИОЛОГИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity415">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>СТРАТИФИКАЦИОННЫЙ АНАЛИЗ ЗАНЯТОСТИ В КОНТЕКСТЕ ФОРМИРОВАНИЯ СРЕДНЕГО КЛАССА</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity416"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity416">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ СОЦИОЛОГИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity415">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>СТРАТИФИКАЦИОННЫЙ АНАЛИЗ ЗАНЯТОСТИ В КОНТЕКСТЕ ФОРМИРОВАНИЯ СРЕДНЕГО КЛАССА</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>СОЦИОЛОГИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity416">
@@ -7395,23 +7395,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity428">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>СОВЕРШЕНСТВОВАНИЕ И ПРИМЕНЕНИЕ ИОННО-ЛУЧЕВОЙ ТЕХНОЛОГИИ СУБМИКРОННОЙ ПАССИВАЦИИ МЕТАЛЛОВ ДЛЯ БЕЗРЕЗИСТНОЙ ЛИТОГРАФИИ И ЗАЩИТЫ ОТ КОРРОЗИИ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ТЕХНИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity428">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>СОВЕРШЕНСТВОВАНИЕ И ПРИМЕНЕНИЕ ИОННО-ЛУЧЕВОЙ ТЕХНОЛОГИИ СУБМИКРОННОЙ ПАССИВАЦИИ МЕТАЛЛОВ ДЛЯ БЕЗРЕЗИСТНОЙ ЛИТОГРАФИИ И ЗАЩИТЫ ОТ КОРРОЗИИ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ТЕХНИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity428">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>СОВЕРШЕНСТВОВАНИЕ И ПРИМЕНЕНИЕ ИОННО-ЛУЧЕВОЙ ТЕХНОЛОГИИ СУБМИКРОННОЙ ПАССИВАЦИИ МЕТАЛЛОВ ДЛЯ БЕЗРЕЗИСТНОЙ ЛИТОГРАФИИ И ЗАЩИТЫ ОТ КОРРОЗИИ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ТЕХНИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71">
@@ -7603,23 +7603,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity440">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>УПРАВЛЕНИЕ ИННОВАЦИОННЫМ РАЗВИТИЕМ МАШИНОСТРОИТЕЛЬНЫХ ПРЕДПРИЯТИЙ : ТЕОРИЯ , МЕТОДОЛОГИЯ , МЕТОДИКА</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity440">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>УПРАВЛЕНИЕ ИННОВАЦИОННЫМ РАЗВИТИЕМ МАШИНОСТРОИТЕЛЬНЫХ ПРЕДПРИЯТИЙ : ТЕОРИЯ , МЕТОДОЛОГИЯ , МЕТОДИКА</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>ДОКТОР ЭКОНОМИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity440">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>УПРАВЛЕНИЕ ИННОВАЦИОННЫМ РАЗВИТИЕМ МАШИНОСТРОИТЕЛЬНЫХ ПРЕДПРИЯТИЙ : ТЕОРИЯ , МЕТОДОЛОГИЯ , МЕТОДИКА</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
@@ -7699,23 +7699,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity440">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>УПРАВЛЕНИЕ ИННОВАЦИОННЫМ РАЗВИТИЕМ МАШИНОСТРОИТЕЛЬНЫХ ПРЕДПРИЯТИЙ : ТЕОРИЯ , МЕТОДОЛОГИЯ , МЕТОДИКА</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity440">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>УПРАВЛЕНИЕ ИННОВАЦИОННЫМ РАЗВИТИЕМ МАШИНОСТРОИТЕЛЬНЫХ ПРЕДПРИЯТИЙ : ТЕОРИЯ , МЕТОДОЛОГИЯ , МЕТОДИКА</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>ДОКТОР ЭКОНОМИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity440">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>УПРАВЛЕНИЕ ИННОВАЦИОННЫМ РАЗВИТИЕМ МАШИНОСТРОИТЕЛЬНЫХ ПРЕДПРИЯТИЙ : ТЕОРИЯ , МЕТОДОЛОГИЯ , МЕТОДИКА</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
@@ -7968,23 +7968,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity451">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ОБОСНОВАНИЕ ОПТИМАЛЬНЫХ СХЕМ , ХАРАКТЕРИСТИК И СИСТЕМНОЙ ЭФФЕКТИВНОСТИ ВОДОРОДНЫХ НАДСТРОЕК НА АЭС С ВВЭР</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ТЕХНИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity451">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ОБОСНОВАНИЕ ОПТИМАЛЬНЫХ СХЕМ , ХАРАКТЕРИСТИК И СИСТЕМНОЙ ЭФФЕКТИВНОСТИ ВОДОРОДНЫХ НАДСТРОЕК НА АЭС С ВВЭР</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ТЕХНИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity451">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ОБОСНОВАНИЕ ОПТИМАЛЬНЫХ СХЕМ , ХАРАКТЕРИСТИК И СИСТЕМНОЙ ЭФФЕКТИВНОСТИ ВОДОРОДНЫХ НАДСТРОЕК НА АЭС С ВВЭР</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ТЕХНИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71">
@@ -8152,23 +8152,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity458">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>МЕХАНИЗМ ФОРМИРОВАНИЯ ЛОГИСТИЧЕСКОЙ СОСТАВЛЯЮЩЕЙ ПРОИЗВОДСТВЕННЫХ ЗАТРАТ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity458">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>МЕХАНИЗМ ФОРМИРОВАНИЯ ЛОГИСТИЧЕСКОЙ СОСТАВЛЯЮЩЕЙ ПРОИЗВОДСТВЕННЫХ ЗАТРАТ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity253"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity253">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ЭКОНОМИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity458">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>МЕХАНИЗМ ФОРМИРОВАНИЯ ЛОГИСТИЧЕСКОЙ СОСТАВЛЯЮЩЕЙ ПРОИЗВОДСТВЕННЫХ ЗАТРАТ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity253">
@@ -8248,23 +8248,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity460">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>РАЗВИТИЕ МЕТОДОЛОГИИ УПРАВЛЕНИЯ ЛОГИСТИЧЕСКИМИ ПРОЦЕССАМИ В УСЛОВИЯХ НЕОПРЕДЕЛЕННОСТИ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity460">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>РАЗВИТИЕ МЕТОДОЛОГИИ УПРАВЛЕНИЯ ЛОГИСТИЧЕСКИМИ ПРОЦЕССАМИ В УСЛОВИЯХ НЕОПРЕДЕЛЕННОСТИ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>ДОКТОР ЭКОНОМИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity460">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>РАЗВИТИЕ МЕТОДОЛОГИИ УПРАВЛЕНИЯ ЛОГИСТИЧЕСКИМИ ПРОЦЕССАМИ В УСЛОВИЯХ НЕОПРЕДЕЛЕННОСТИ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity207">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ЭКОНОМИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity206">
@@ -8922,23 +8922,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity498">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>РИСК ПОТЕРИ ИНФОРМАЦИИ КАК ОБОБЩЕННАЯ ХАРАКТЕРИСТИКА ВОДИТЕЛЯ ПРИ ПРОЕКТИРОВАНИИ И ЭКСПЛУАТАЦИИ АВТОМОБИЛЬНЫХ ДОРОГ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ТЕХНИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity498">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>РИСК ПОТЕРИ ИНФОРМАЦИИ КАК ОБОБЩЕННАЯ ХАРАКТЕРИСТИКА ВОДИТЕЛЯ ПРИ ПРОЕКТИРОВАНИИ И ЭКСПЛУАТАЦИИ АВТОМОБИЛЬНЫХ ДОРОГ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ТЕХНИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity498">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>РИСК ПОТЕРИ ИНФОРМАЦИИ КАК ОБОБЩЕННАЯ ХАРАКТЕРИСТИКА ВОДИТЕЛЯ ПРИ ПРОЕКТИРОВАНИИ И ЭКСПЛУАТАЦИИ АВТОМОБИЛЬНЫХ ДОРОГ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity38">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ТЕХНИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity71">
@@ -9132,23 +9132,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity509">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>МЕТОДЫ И МОДЕЛИ ФУНКЦИОНАЛЬНОГО ВОССТАНОВЛЕНИЯ ПОВЕДЕНИЯ СИСТЕМ , МОДЕЛИРУЕМЫХ АВТОМАТАМИ СПЕЦИАЛЬНОГО КЛАССА</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>ФИЗИКО-МАТЕМАТИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity509">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>МЕТОДЫ И МОДЕЛИ ФУНКЦИОНАЛЬНОГО ВОССТАНОВЛЕНИЯ ПОВЕДЕНИЯ СИСТЕМ , МОДЕЛИРУЕМЫХ АВТОМАТАМИ СПЕЦИАЛЬНОГО КЛАССА</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity13"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity13">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ ФИЗИКО-МАТЕМАТИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity509">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>МЕТОДЫ И МОДЕЛИ ФУНКЦИОНАЛЬНОГО ВОССТАНОВЛЕНИЯ ПОВЕДЕНИЯ СИСТЕМ , МОДЕЛИРУЕМЫХ АВТОМАТАМИ СПЕЦИАЛЬНОГО КЛАССА</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity14">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>ФИЗИКО-МАТЕМАТИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity13">
@@ -9269,23 +9269,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity512">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ЭФФЕКТЫ ЭКОЛОГИЧЕСКОГО РЕГУЛЯТОРА ГЕТЕРОАУКСИНА НА БИОЛОГИЧЕСКИЕ СИСТЕМЫ РАЗНЫХ УРОВНЕЙ ОРГАНИЗАЦИИ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>БИОЛОГИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity512">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ЭФФЕКТЫ ЭКОЛОГИЧЕСКОГО РЕГУЛЯТОРА ГЕТЕРОАУКСИНА НА БИОЛОГИЧЕСКИЕ СИСТЕМЫ РАЗНЫХ УРОВНЕЙ ОРГАНИЗАЦИИ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ БИОЛОГИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity512">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ЭФФЕКТЫ ЭКОЛОГИЧЕСКОГО РЕГУЛЯТОРА ГЕТЕРОАУКСИНА НА БИОЛОГИЧЕСКИЕ СИСТЕМЫ РАЗНЫХ УРОВНЕЙ ОРГАНИЗАЦИИ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>БИОЛОГИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3">
@@ -9417,23 +9417,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity518">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>СОЦИОКУЛЬТУРНАЯ СРЕДА ВЫСШЕГО ОБРАЗОВАНИЯ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>СОЦИОЛОГИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity518">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>СОЦИОКУЛЬТУРНАЯ СРЕДА ВЫСШЕГО ОБРАЗОВАНИЯ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity416"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity416">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ СОЦИОЛОГИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity518">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>СОЦИОКУЛЬТУРНАЯ СРЕДА ВЫСШЕГО ОБРАЗОВАНИЯ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>СОЦИОЛОГИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity416">
@@ -9698,23 +9698,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity530">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>МЕХАНИЗМЫ КОНСТРУИРОВАНИЯ СОЦИАЛЬНОГО НЕРАВЕНСТВА ГОРОДСКОЙ И СЕЛЬСКОЙ МОЛОДЕЖИ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>СОЦИОЛОГИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity530">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>МЕХАНИЗМЫ КОНСТРУИРОВАНИЯ СОЦИАЛЬНОГО НЕРАВЕНСТВА ГОРОДСКОЙ И СЕЛЬСКОЙ МОЛОДЕЖИ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity416"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity416">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ СОЦИОЛОГИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity530">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>МЕХАНИЗМЫ КОНСТРУИРОВАНИЯ СОЦИАЛЬНОГО НЕРАВЕНСТВА ГОРОДСКОЙ И СЕЛЬСКОЙ МОЛОДЕЖИ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity240">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>СОЦИОЛОГИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity416">
@@ -10203,23 +10203,23 @@
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity558">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
       <rdfs:label>ИЗМЕНЕНИЕ МИГРАЦИИ И ПРОЛИФЕРАЦИИ СТВОЛОВЫХ КРОВЕТВОРНЫХ КЛЕТОК , ПОПУЛЯЦИОННОГО СОСТАВА ИММУНОКОМПЕТЕНТНЫХ КЛЕТОК В ПРОЦЕССЕ ФОРМИРОВАНИЯ ИММУНИТЕТА К ЧУМЕ</rdfs:label>
-      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4"/>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
-      <rdfs:label>БИОЛОГИЧЕСКИЕ</rdfs:label>
-   </owl:NamedIndividual>
-
-   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity558">
-      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
-      <rdfs:label>ИЗМЕНЕНИЕ МИГРАЦИИ И ПРОЛИФЕРАЦИИ СТВОЛОВЫХ КРОВЕТВОРНЫХ КЛЕТОК , ПОПУЛЯЦИОННОГО СОСТАВА ИММУНОКОМПЕТЕНТНЫХ КЛЕТОК В ПРОЦЕССЕ ФОРМИРОВАНИЯ ИММУНИТЕТА К ЧУМЕ</rdfs:label>
       <hasDegree rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3"/>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3">
       <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#AcademicDegree" />
       <rdfs:label>КАНДИДАТ БИОЛОГИЧЕСКИХ НАУК</rdfs:label>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity558">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#Thesis" />
+      <rdfs:label>ИЗМЕНЕНИЕ МИГРАЦИИ И ПРОЛИФЕРАЦИИ СТВОЛОВЫХ КРОВЕТВОРНЫХ КЛЕТОК , ПОПУЛЯЦИОННОГО СОСТАВА ИММУНОКОМПЕТЕНТНЫХ КЛЕТОК В ПРОЦЕССЕ ФОРМИРОВАНИЯ ИММУНИТЕТА К ЧУМЕ</rdfs:label>
+      <refersToTheBranchOfScience rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4"/>
+   </owl:NamedIndividual>
+
+   <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity4">
+      <rdf:type rdf:resource = "http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#BranchOfScience" />
+      <rdfs:label>БИОЛОГИЧЕСКИЕ</rdfs:label>
    </owl:NamedIndividual>
 
    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleksei_dmitriev/ontologies/2020/1/untitled-ontology-3#NewEntity3">

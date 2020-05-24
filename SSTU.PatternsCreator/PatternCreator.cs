@@ -71,7 +71,34 @@ namespace SSTU.PatternsCreator
 
 			return result;
 		}
-		
+
+		public string GetTextPatterns(List<OlsplPattern> patterns)
+		{
+			var result = new StringBuilder();
+			foreach (var pattern in patterns)
+			{
+				result.AppendLine("@olspl");
+				result.AppendLine(pattern.Comment);
+				result.AppendLine(pattern.Rule);
+				result.AppendLine("{");
+				result.AppendLine($"{pattern.Entity1.Name} <rdf:type> {pattern.Entity1.Type}");
+				result.AppendLine($"{pattern.Entity1.Name} <rdf:label> {pattern.Entity1.Label}");
+
+				if(pattern.Entity2 != null)
+				{
+					result.AppendLine($"{pattern.Entity2.Name} <rdf:type> {pattern.Entity2.Type}");
+					result.AppendLine($"{pattern.Entity2.Name} <rdf:label> {pattern.Entity2.Label}");
+					result.AppendLine(pattern.TotalTriplet.TotalTriplet);
+				}
+
+				result.AppendLine("}");
+				result.AppendLine();
+			}
+
+			return result.ToString();
+		}
+
+
 		private OlsplPattern GetOlsplPatternFromBlock(List<string> block)
 		{
 			if (block.Count != 4 && block.Count != 7)
